@@ -14,6 +14,6 @@ while url:
         print(text)
         author = quote.find(class_="author").get_text()
         print(author)
-       
+
     next_btn = soup.find(class_="next")
-    url = next_btn.find("a") ["href"] if next_btn else None
+    # url = next_btn.find("a") ["href"] if next_btn else NOne
